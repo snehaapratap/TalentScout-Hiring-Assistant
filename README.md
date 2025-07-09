@@ -1,4 +1,4 @@
-# 🤖 TalentScout – AI-Powered Hiring Assistant Chatbot
+# 🤖 TalentScout – AI-Powered Hiring Assistant 
 
 An intelligent, context-aware chatbot built using **Streamlit**, **Groq API (LLaMA3)**, and **Docker**, designed to automate the initial candidate screening process for a fictional recruitment agency — **TalentScout**.
 
