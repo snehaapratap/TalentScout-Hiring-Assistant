@@ -32,3 +32,5 @@ def remove_duplicate_questions(text):
     if not unique_questions:
         return text  
     return "\n\n".join([f"{i+1}. {q}" for i, q in enumerate(unique_questions)])
+
+# Note: remove_duplicate_questions expects only the questions, not intro/summary text. The prompt should ensure this.

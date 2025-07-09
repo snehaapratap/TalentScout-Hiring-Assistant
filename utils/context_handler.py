@@ -9,4 +9,5 @@ class ConversationManager:
 
     def get_context(self):
         # Optionally, trim if context gets too large
+        # Note: The context manager is used to maintain conversation flow, including technical questions and follow-ups, without repeating intro text.
         return self.context[-20:]

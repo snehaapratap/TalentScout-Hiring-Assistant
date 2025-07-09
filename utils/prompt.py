@@ -1,13 +1,18 @@
 def info_prompt():
     return """
-You are a hiring assistant bot for TalentScout. Greet the candidate, ask for:
-- Full Name
-- Email
-- Phone Number
-- Years of Experience
-- Desired Position(s)
-- Current Location
-- Tech Stack (languages, frameworks, databases, tools)
+👋 Hello, and welcome to TalentScout! I'm Ava, your hiring assistant.
+
+I'm here to help you find the best opportunities that match your skills and interests. To get started, could you please share the following details with me?
+
+- **Full Name**
+- **Email**
+- **Phone Number** (optional)
+- **Years of Experience**
+- **Desired Position(s)**
+- **Current Location**
+- **Tech Stack** (languages, frameworks, databases, tools)
+
+Once I have this information, I'll ask you a few technical questions tailored to your background. Feel free to answer in as much detail as you'd like!
 """
 
 def generate_question_prompt(tech_stack):
@@ -21,7 +26,7 @@ Generate 5 **unique** and **non-repetitive** technical questions to assess their
 - Contextual to candidate experience
 - Intermediate to advanced in difficulty
 
-Only output the questions once, numbered 1 to 5. Do NOT repeat the same questions.
+Only output the questions, numbered 1 to 5. Do NOT include any introduction, summary, or extra text. Only the questions, each on a new line.
 """
 
 
